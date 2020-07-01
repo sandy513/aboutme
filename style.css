@@ -67,7 +67,9 @@ p {
   border-radius: 70px;
   position: absolute;
   transform: rotate(-30deg);
+  
 }
+
 .decoration:nth-of-type(1) {
   top: -95px;
   left: 74%;
@@ -115,6 +117,22 @@ p {
   background-image: url("https://sandy513.github.io/photo/beauty_1586612269276.JPG");
   background-size: 180px 120px;
   background-position: center;
+  animation-name: facego;
+  animation-duration: 1.5s;
+}
+@keyframes facego {
+  0% {
+    margin-top: -50px;
+    margin-left: -300px;
+  }
+  50% {
+    margin-top: 20px;
+    margin-left: -20px;
+  }
+  100% {
+    margin-top:  0px;
+    margin-left: 10px;
+  }
 }
 .nameCircle {
   position: absolute;
@@ -128,6 +146,7 @@ p {
   padding-left: 40px;
   padding-top: 10px;
 }
+
 .circle {
   width: 90px;
   height: 90px;
